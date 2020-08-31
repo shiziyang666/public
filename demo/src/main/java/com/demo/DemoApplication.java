@@ -35,7 +35,10 @@ public class DemoApplication implements CommandLineRunner {
 //        peopleNearbyService.postUserAddress("city", 43.86, 10.40, "深圳");
 
         //获取附近的人地理位置
-        peopleNearbyService.listNearbyUser("city","深圳",8000,4);
+//        peopleNearbyService.listNearbyUser("city","深圳",8000,4);
+
+        //分页查询附近的人
+        peopleNearbyService.listNearbyUserLimit(1, 2, "city", "深圳", "8000", "km", "asc", "shenzhennewkey");
     }
 
 }
