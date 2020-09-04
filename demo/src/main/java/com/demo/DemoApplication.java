@@ -28,17 +28,7 @@ public class DemoApplication implements CommandLineRunner {
      */
     @Override
     public void run(String... args) throws Exception {
-        //添加地理位置
-//        peopleNearbyService.postUserAddress("city", 116.405285, 39.904989, "北京");
-//        peopleNearbyService.postUserAddress("city", 121.47, 31.23, "上海");
-//        peopleNearbyService.postUserAddress("city", 113.27, 23.13, "广州");
-//        peopleNearbyService.postUserAddress("city", 43.86, 10.40, "深圳");
 
-        //获取附近的人地理位置
-//        peopleNearbyService.listNearbyUser("city","深圳",8000,4);
-
-        //分页查询附近的人
-        peopleNearbyService.listNearbyUserLimit(1, 2, "city", "深圳", "8000", "km", "asc", "shenzhennewkey");
     }
 
 }
