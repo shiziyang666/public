@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo</module>
-        <module>aa</module>
     </modules>
     <packaging>pom</packaging>
     <parent>

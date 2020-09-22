@@ -19,14 +19,35 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117960b8-2a2d-4cdd-81b2-d30b3f9f3b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/service/BatchRunRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/service/impl/BatchRunRedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/BodyRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/ParameterRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/request/TestRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/util/JsonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/service/BatchRunRedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/service/BatchRunRedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/service/impl/BatchRunRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/service/impl/BatchRunRedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +87,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -83,6 +105,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\demo\src\main\resources" />
     </key>
@@ -101,13 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +160,9 @@
       <workItem from="1598855037907" duration="451000" />
       <workItem from="1598855513544" duration="13750000" />
       <workItem from="1599202087459" duration="2592000" />
+      <workItem from="1600400444400" duration="31000" />
+      <workItem from="1600400490627" duration="9552000" />
+      <workItem from="1600742517036" duration="13866000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;del aa&quot;">
       <created>1598857576291</created>
@@ -173,7 +203,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -187,10 +229,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;附近的人&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1598866169483">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1600746710442">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598866169483" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600746710442" />
     <state x="396" y="42" key="#xdebugger.evaluate" timestamp="1598863467429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -199,10 +241,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599202556522" />
-    <state width="510" height="438" key="DebuggerActiveHint" timestamp="1598866103644">
+    <state width="544" height="547" key="DebuggerActiveHint" timestamp="1600769395638">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="510" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598866103644" />
+    <state width="544" height="547" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600769395638" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1598857506778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -227,22 +269,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="203" key="GridCell.Tab.-1.right/0.0.1280.680@0.0.1280.680" timestamp="1598863373572" />
-    <state width="1237" height="203" key="GridCell.Tab.0.bottom" timestamp="1599013060400">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1600770479749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599013060400" />
-    <state width="1237" height="203" key="GridCell.Tab.0.center" timestamp="1599013060400">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1600770479749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599013060400" />
-    <state width="1237" height="203" key="GridCell.Tab.0.left" timestamp="1599013060400">
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1600770479748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599013060400" />
-    <state width="1237" height="203" key="GridCell.Tab.0.right" timestamp="1599013060400">
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600770479748" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1600770479749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599013060400" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
     <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1598863355322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -267,14 +309,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599202572296" />
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599202561281">
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600771234836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1599202561281" />
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1600771234836" />
     <state x="28" y="1" key="new project wizard" timestamp="1599202204967">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599202204967" />
+    <state x="424" y="86" key="refactoring.ChangeSignatureDialog" timestamp="1600767217629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="86" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1600767217629" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1600764658508">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1600764658508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,7 +339,33 @@
           <line>31</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="applicationMapping" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="localName" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/public$DemoApplication.ic" NAME="DemoApplication Coverage Results" MODIFIED="1600745233759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.*</FILTER>
+    </SUITE>
   </component>
 </project>
