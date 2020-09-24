@@ -1,5 +1,6 @@
 package com.demo.filter.request;
 
+import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.MediaType;
 
@@ -16,28 +17,31 @@ import java.util.Map;
 @WebFilter
 public class EncryptionFilter implements Filter {
 
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
     }
-
-    private final static String JSON_TO_PARAM = "JSONS";
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) req;
 
         String contentType = request.getContentType();
+        //body形式（json）
         if (contentType.equals(MediaType.APPLICATION_JSON_UTF8_VALUE)
                 || contentType.equals(MediaType.APPLICATION_JSON_VALUE)) {
             //获取request的body参数
             String postContent = getBody(request);
             //如果body中存在数据放入HttpServletRequest
             if (StringUtils.isNotEmpty(postContent)) {
+                //参数中放入新的参数
+                JSONObject jsStr = JSONObject.parseObject(postContent);
+                jsStr.put("aa", "bb");
+                postContent = jsStr.toJSONString();
                 //将参数放入重写的方法中
                 request = new BodyRequestWrapper(request, postContent);
             }
+        //form表单形式
         } else if ((contentType.equals(MediaType.APPLICATION_FORM_URLENCODED_VALUE) || contentType.contains(MediaType.MULTIPART_FORM_DATA_VALUE))
                 && !request.getParameterMap().isEmpty()) {
 //            String body = "{\"name\":\"zhangsan\",\"age\":1,\"gender\":2}";

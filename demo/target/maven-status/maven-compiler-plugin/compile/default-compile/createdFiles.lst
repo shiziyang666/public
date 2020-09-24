@@ -1,12 +1,12 @@
+com\demo\filter\request\ParameterRequestWrapper.class
 com\demo\util\BatchRunRedisUtil$1.class
 com\demo\util\JsonUtils.class
 com\demo\entity\MemberGpsEntity.class
 com\demo\util\GeoHashUtil.class
-com\demo\config\BodyRequestWrapper.class
-com\demo\config\ParameterRequestWrapper.class
+com\demo\filter\request\BodyRequestWrapper.class
 com\demo\service\BatchRunRedisService.class
 com\demo\service\impl\BatchRunRedisServiceImpl.class
-com\demo\config\BodyRequestWrapper$1.class
+com\demo\filter\request\EncryptionFilter.class
 com\demo\service\impl\ReadFileServiceImpl.class
 com\demo\DemoApplication.class
 com\demo\config\RedisConfigurtion.class
@@ -14,7 +14,7 @@ com\demo\util\RegUtils.class
 com\demo\controller\TestController.class
 com\demo\util\BatchRunRedisUtil.class
 com\demo\service\ReadFileService.class
-com\demo\config\EncryptionFilter.class
+com\demo\filter\request\BodyRequestWrapper$1.class
 com\demo\service\impl\PeopleNearbyServiceImpl.class
 com\demo\service\PeopleNearbyService.class
 com\demo\util\ReadFile.class
