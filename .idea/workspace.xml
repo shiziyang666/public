@@ -28,26 +28,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117960b8-2a2d-4cdd-81b2-d30b3f9f3b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/BodyRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/ParameterRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/request/TestRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/util/JsonUtils.java" afterDir="false" />
+    <list default="true" id="117960b8-2a2d-4cdd-81b2-d30b3f9f3b88" name="Default Changelist" comment="&quot;修改进参&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/service/BatchRunRedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/service/BatchRunRedisService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/service/impl/BatchRunRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/service/impl/BatchRunRedisServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/util/BatchRunRedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/filter/request/EncryptionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/BodyRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/filter/request/BodyRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/config/ParameterRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/filter/request/ParameterRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/config/AopEncryption$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/config/AopEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/config/ParameterRequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/config/ParameterRequestWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/demo/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/demo/service/impl/BatchRunRedisServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,15 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +154,8 @@
       <workItem from="1599202087459" duration="2592000" />
       <workItem from="1600400444400" duration="31000" />
       <workItem from="1600400490627" duration="9552000" />
-      <workItem from="1600742517036" duration="13866000" />
+      <workItem from="1600742517036" duration="15334000" />
+      <workItem from="1600915770930" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;del aa&quot;">
       <created>1598857576291</created>
@@ -192,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599202557958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;修改进参&quot;">
+      <created>1600771490977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600771490977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +226,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;del aa&quot;" />
     <MESSAGE value="&quot;附近的人&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;附近的人&quot;" />
+    <MESSAGE value="&quot;修改进参&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;修改进参&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1600746710442">
@@ -237,14 +238,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="42" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598863467429" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1599202556522">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1600915677210">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599202556522" />
-    <state width="544" height="547" key="DebuggerActiveHint" timestamp="1600769395638">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600915677210" />
+    <state width="544" height="547" key="DebuggerActiveHint" timestamp="1600915451650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="544" height="547" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600769395638" />
+    <state width="544" height="547" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600915451650" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1598857506778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -269,22 +270,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="203" key="GridCell.Tab.-1.right/0.0.1280.680@0.0.1280.680" timestamp="1598863373572" />
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1600770479749">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600915748564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
-    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1600770479749">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600915748564" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600915748564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
-    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1600770479748">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600915748564" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600915748564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600770479748" />
-    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1600770479749">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600915748564" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600915748564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600770479749" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600915748564" />
     <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1598863355322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -305,14 +306,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598856491899" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599202572296">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600771501748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599202572296" />
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600771234836">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600771501748" />
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600771494546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1600771234836" />
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1600771494546" />
     <state x="28" y="1" key="new project wizard" timestamp="1599202204967">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -341,18 +342,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/controller/TestController.java</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/filter/request/EncryptionFilter.java</url>
+          <line>29</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo/src/main/java/com/demo/config/AopEncryption.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

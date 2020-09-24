@@ -13,7 +13,6 @@ public class TestController {
 
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     public void test(TestRequest request) {
-        System.out.println(request.getName());
         System.out.println("TestController" + request);
     }
 }

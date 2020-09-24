@@ -1,4 +1,4 @@
-package com.demo.config;
+package com.demo.filter.request;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
@@ -34,6 +34,7 @@ public class ParameterRequestWrapper extends HttpServletRequestWrapper {
     public Enumeration<String> getParameterNames() {
         return Collections.enumeration(params.keySet());
     }
+
     @Override
     public String getParameter(String name) {
         String[] values = params.get(name);
