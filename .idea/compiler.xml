@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCloudGateWay" />
+        <module name="springBootStarter" />
         <module name="SpringCloudConsumer" />
         <module name="demo" />
         <module name="SpringCloudEureka" />
@@ -17,6 +18,7 @@
       <module name="aa" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="public" target="1.8" />
+      <module name="springBootStarter" target="1.8" />
       <module name="SpringCloudConsumer" target="1.8" />
       <module name="SpringCloudEureka" target="1.8" />
       <module name="SpringCloudGateWay" target="1.8" />
@@ -31,6 +33,7 @@
       <module name="SpringCloudProducer" options="-parameters" />
       <module name="aa" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="springBootStarter" options="-parameters" />
     </option>
   </component>
 </project>

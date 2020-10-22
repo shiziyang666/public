@@ -13,6 +13,7 @@
         <module>SpringCloudConsumer</module>
         <module>SpringCloudEureka</module>
         <module>SpringCloudGateWay</module>
+        <module>springBootStarter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>

@@ -12,4 +12,11 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
+//    @Autowired
+//    private StarterApplication starterApplication;
+
+//    @Override
+//    public void run(String... args) throws Exception {
+//
+//    }
 }
