@@ -14,6 +14,11 @@
         <module>SpringCloudEureka</module>
         <module>SpringCloudGateWay</module>
         <module>springBootStarter</module>
+        <module>apacheCamel</module>
+        <module>nodeData</module>
+        <module>rocketMqDemo</module>
+        <module>kafakDemo</module>
+        <module>kafakConsumerDemo</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -30,7 +35,7 @@
     </dependencies>
 
 
-<!--    <dependencyManagement>-->
+    <!--    <dependencyManagement>-->
     <!--        <dependencies>-->
     <!--            &lt;!&ndash;springCloud &ndash;&gt;-->
     <!--            <dependency>-->
@@ -42,7 +47,6 @@
     <!--            </dependency>-->
     <!--        </dependencies>-->
     <!--    </dependencyManagement>-->
-
 
 
 </project>

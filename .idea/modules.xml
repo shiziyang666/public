@@ -6,8 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloudEureka/SpringCloudEureka.iml" filepath="$PROJECT_DIR$/SpringCloudEureka/SpringCloudEureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudGateWay/SpringCloudGateWay.iml" filepath="$PROJECT_DIR$/SpringCloudGateWay/SpringCloudGateWay.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudProducer/SpringCloudProducer.iml" filepath="$PROJECT_DIR$/SpringCloudProducer/SpringCloudProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apacheCamel/apacheCamel.iml" filepath="$PROJECT_DIR$/apacheCamel/apacheCamel.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafakConsumerDemo/kafakConsumerDemo.iml" filepath="$PROJECT_DIR$/kafakConsumerDemo/kafakConsumerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafakDemo/kafakDemo.iml" filepath="$PROJECT_DIR$/kafakDemo/kafakDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nodeData/nodeData.iml" filepath="$PROJECT_DIR$/nodeData/nodeData.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/public.iml" filepath="$PROJECT_DIR$/.idea/public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketMqDemo/rocketMqDemo.iml" filepath="$PROJECT_DIR$/rocketMqDemo/rocketMqDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootStarter/springBootStarter.iml" filepath="$PROJECT_DIR$/springBootStarter/springBootStarter.iml" />
     </modules>
   </component>

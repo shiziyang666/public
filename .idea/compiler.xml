@@ -6,18 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringCloudGateWay" />
-        <module name="springBootStarter" />
-        <module name="SpringCloudConsumer" />
         <module name="demo" />
-        <module name="SpringCloudEureka" />
+        <module name="SpringCloudGateWay" />
         <module name="SpringCloudProducer" />
+        <module name="rocketMqDemo" />
+        <module name="SpringCloudEureka" />
+        <module name="SpringCloudConsumer" />
+        <module name="nodeData" />
+        <module name="kafakDemo" />
+        <module name="springBootStarter" />
+        <module name="kafakConsumerDemo" />
+        <module name="apacheCamel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aa" target="1.8" />
+      <module name="apacheCamel" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="kafakConsumerDemo" target="1.8" />
+      <module name="kafakDemo" target="1.8" />
+      <module name="nodeData" target="1.8" />
       <module name="public" target="1.8" />
+      <module name="rocketMqDemo" target="1.8" />
       <module name="springBootStarter" target="1.8" />
       <module name="SpringCloudConsumer" target="1.8" />
       <module name="SpringCloudEureka" target="1.8" />
@@ -32,7 +42,12 @@
       <module name="SpringCloudGateWay" options="-parameters" />
       <module name="SpringCloudProducer" options="-parameters" />
       <module name="aa" options="-parameters" />
+      <module name="apacheCamel" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="kafakConsumerDemo" options="-parameters" />
+      <module name="kafakDemo" options="-parameters" />
+      <module name="nodeData" options="-parameters" />
+      <module name="rocketMqDemo" options="-parameters" />
       <module name="springBootStarter" options="-parameters" />
     </option>
   </component>
