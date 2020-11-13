@@ -5,9 +5,9 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 /**
- * @author toutou
+ * @author shiziyang
  * 监听服务器上的kafka是否有相关的消息发过来
- * @date by 2019/08
+ * @date by 2020/11
  */
 @Component
 public class ConsumerDemo {
@@ -18,6 +18,6 @@ public class ConsumerDemo {
      */
     @KafkaListener(topics = "demo")
     public void listen(ConsumerRecord<?, ?> record) {
-        System.out.printf("kafakDemo -> topic is %s, offset is %d, value is %s \n", record.topic(), record.offset(), record.value());
+        System.out.printf("kafakDemo -> topic is %s, offset is %d, key is %s, value is %s \n", record.topic(), record.offset(), record.key(), record.value());
     }
 }

@@ -16,8 +16,18 @@ public class ConsumerDemo {
      *
      * @param record 变量代表消息本身，可以通过ConsumerRecord<?,?>类型的record变量来打印接收的消息的各种信息
      */
-    @KafkaListener(topics = "demo")
+    @KafkaListener(topics = "demo",groupId = "1")
     public void listen(ConsumerRecord<?, ?> record) {
-        System.out.printf("kafakConsumerDemo -> topic is %s, offset is %d, value is %s \n", record.topic(), record.offset(), record.value());
+        System.out.printf("kafakConsumerDemo1 -> topic is %s, offset is %d, value is %s \n", record.topic(), record.offset(), record.value());
+    }
+
+    /**
+     * 定义此消费者接收topics = "demo"的消息，与controller中的topic对应上即可
+     *
+     * @param record 变量代表消息本身，可以通过ConsumerRecord<?,?>类型的record变量来打印接收的消息的各种信息
+     */
+    @KafkaListener(topics = "demo",groupId = "2")
+    public void listen2(ConsumerRecord<?, ?> record) {
+        System.out.printf("kafakConsumerDemo2 -> topic is %s, offset is %d, value is %s \n", record.topic(), record.offset(), record.value());
     }
 }

@@ -15,7 +15,7 @@ public class ProducerController {
 
     @RequestMapping(value = "/message/send/{msg}",method = RequestMethod.GET)
     public String send(@PathVariable String msg){
-        kafkaTemplate.send("demo", msg); //使用kafka模板发送信息
+        kafkaTemplate.send("demo","shus1", msg); //使用kafka模板发送信息
         return "success";
     }
 }
