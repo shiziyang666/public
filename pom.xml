@@ -19,14 +19,26 @@
         <module>rocketMqDemo</module>
         <module>kafakDemo</module>
         <module>kafakConsumerDemo</module>
+        <module>SpringCloudNacosConsumer</module>
+        <module>SpringCloudNacosProvider</module>
+        <module>SpringCloudNacosProviderApi</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.7.RELEASE</version>
+        <version>2.2.1.RELEASE</version>
     </parent>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -34,19 +46,45 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.2.1.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+        <nacos.version>2.2.0.RELEASE</nacos.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${nacos.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
-    <!--    <dependencyManagement>-->
-    <!--        <dependencies>-->
-    <!--            &lt;!&ndash;springCloud &ndash;&gt;-->
-    <!--            <dependency>-->
-    <!--                <groupId>org.springframework.cloud</groupId>-->
-    <!--                <artifactId>spring-cloud-dependencies</artifactId>-->
-    <!--                <version>Finchley.SR2</version>-->
-    <!--                <type>pom</type>-->
-    <!--                <scope>import</scope>-->
-    <!--            </dependency>-->
-    <!--        </dependencies>-->
-    <!--    </dependencyManagement>-->
-
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.0.7.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
